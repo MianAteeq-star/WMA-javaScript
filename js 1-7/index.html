@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <nav class="w-full bg-blue-300 p-5 rounded-x-xl flex  justify-center ">
+            <ul class="flex gap-5">
+                <li>
+                    Chapter 1-7 | Javascript
+                </li>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+        </nav>
+
+
+
+        
+                    <div class="flex justify-center p-5 rounded-xl gap-3 flex-wrap">
+                        <div>
+                            <button class="p-3 rounded-xl bg-gray-500 " id="name" onclick="alertName()">Alert
+                                Name</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-yellow-500 " id="number" onclick="alertNumber()"> Alert
+                                Number</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-green-700 " id="camalCase" onclick="camal()">Show
+                                camalCase</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-orange-600 " id="variable" onclick="variableName()">Show
+                                variable name</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-red-800 " id="sum" onclick="sum()">Sum two numbers</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-yellow-600  " id="subtract" onclick="subtract()">Sabtract
+                                two numbers</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-gray-700 " id="multiply" onclick="multiply()">Multiply two
+                                numbers</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-green-500 " id="divide" onclick="divide()">Divide two
+                                numbers</button>
+                        </div>
+                        <div>
+                            <button class="p-3 rounded-xl bg-orange-600 " id="average" onclick="average()">Average two
+                                numbers</button>
+                        </div>
+                    </div>
+
+
+
+
+
+        <div class="">
+            <div class="col">
+                <div class="row ">
+                    <div class="w-full bg-orange-500 h-64 flex   justify-center items-center" id="statementBox">
+
+                    </div>
+                </div>
+                <div class="flex justify-center">
+
+                    <button type="button" class="p-4 bg-orange-600  rounded-lg mt-4" id="Statement"
+                        onclick="clearStatement()"> Clear Statement</button>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="col">
+                <div class="row text-center">
+                    <div class="w-full bg-gray-500 h-64 mt-6 flex items-center justify-center" id="outputBox">
+
+                    </div>
+                </div>
+                <div class="flex justify-center">
+
+                    <button type="button" class="p-4 bg-blue-600  rounded-lg mt-4" id="Output" onclick="clearOutput()">
+                        Clear Output</button>
+                </div>
+            </div>
+        </div>
+        <footer class=" p-5 bg-blue-700 mt-5 text-center text-white">
+            &copy; <span id="year"> </span> CopyRight All right Reserved
+        </footer>
+    </main>
+</body>
+<script src="script.js"></script>
+
+
+</html>
